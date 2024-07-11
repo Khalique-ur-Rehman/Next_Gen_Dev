@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color:rgb(217, 217, 226);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.resume-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    width: 300px;
+}
+
+.resume-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.resume-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+      <nav class="navbar">
+          
+          <a href="index.html">About</a>
+          <a href="about.html">Skill</a>
+          <a href="project.html">Project</a>
+          <a href="resume.html">Resume</a>
+            <a href="contact.html">contact</a>
+      </nav>
+    </header>
+    <section class="resume">
+        <div class="resume-content">
+            <h2>Resume</h2>
+            <p>Click the button below to download my resume in PDF format.</p>
+            <a href="file:///C:/Users/Administrator/Downloads/Khalique_Ur_Rehman%20Resume.pdf" class="download-btn" download>Download Resume</a>
+        </div>
+    </section>
+</body>
+</html>
